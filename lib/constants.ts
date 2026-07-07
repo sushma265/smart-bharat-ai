@@ -100,3 +100,13 @@ export const ASSISTANT_SUGGESTIONS = [
   'How can I check my EPF balance?',
   'How do I link Aadhaar with my mobile number?',
 ] as const
+
+export const ISSUE_TYPES = [
+  'Road / Infrastructure',
+  'Water Supply',
+  'Electricity',
+  'Sanitation / Garbage',
+  'Public Transport',
+  'Corruption / Malpractice',
+  'Other',
+] as const

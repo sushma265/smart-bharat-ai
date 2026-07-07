@@ -31,3 +31,14 @@ export interface DocumentGuide {
 export interface ApiError {
   error: { code: string; message: string }
 }
+
+export type ComplaintStatus = 'Submitted' | 'In review' | 'Resolved'
+
+export interface Complaint {
+  id: string
+  issueType: string
+  location: string
+  description: string
+  status: ComplaintStatus
+  createdAt: string
+}

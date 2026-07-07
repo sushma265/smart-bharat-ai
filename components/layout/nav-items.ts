@@ -1,6 +1,7 @@
 import {
   FileText,
   LayoutDashboard,
+  Megaphone,
   MessageCircle,
   ScrollText,
   Sparkles,
@@ -42,6 +43,13 @@ export const NAV_ITEMS: NavItem[] = [
     label: 'Document Assistant',
     description: 'Step-by-step document guides',
     icon: FileText,
+    available: true,
+  },
+  {
+    href: '/dashboard/report',
+    label: 'Report an Issue',
+    description: 'Report a public issue and track its status',
+    icon: Megaphone,
     available: true,
   },
   {
